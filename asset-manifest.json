@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/sparklekids-school/static/css/main.7ed682ba.css",
+    "main.js": "/sparklekids-school/static/js/main.c71ad61d.js",
+    "static/media/logo.png": "/sparklekids-school/static/media/logo.b04f1a054a63a9b28fca.png",
+    "index.html": "/sparklekids-school/index.html",
+    "main.7ed682ba.css.map": "/sparklekids-school/static/css/main.7ed682ba.css.map",
+    "main.c71ad61d.js.map": "/sparklekids-school/static/js/main.c71ad61d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7ed682ba.css",
+    "static/js/main.c71ad61d.js"
+  ]
+}
