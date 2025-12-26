@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
+
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
@@ -9,12 +10,13 @@ import Programs from "./pages/Programs";
 import Facilities from "./pages/Facilities";
 import Admissions from "./pages/Admissions";
 import Contact from "./pages/Contact";
+import NotFound from "./pages/NotFound";
 import { Toaster } from "./components/ui/toaster";
 
 function App() {
   return (
     <div className="App">
-      <BrowserRouter basename={'/sparklekids-school'}>
+      <HashRouter>
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -23,10 +25,11 @@ function App() {
           <Route path="/facilities" element={<Facilities />} />
           <Route path="/admissions" element={<Admissions />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />
         <Toaster />
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
