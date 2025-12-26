@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/sparklekids-school/static/css/main.05a885e2.css",
-    "main.js": "/sparklekids-school/static/js/main.fa312c57.js",
+    "main.css": "/sparklekids-school/static/css/main.becad530.css",
+    "main.js": "/sparklekids-school/static/js/main.1ed9df11.js",
     "static/media/chairman1.jpg": "/sparklekids-school/static/media/chairman1.66c213820a1bea946c14.jpg",
     "static/media/logo.png": "/sparklekids-school/static/media/logo.b04f1a054a63a9b28fca.png",
     "index.html": "/sparklekids-school/index.html",
-    "main.05a885e2.css.map": "/sparklekids-school/static/css/main.05a885e2.css.map",
-    "main.fa312c57.js.map": "/sparklekids-school/static/js/main.fa312c57.js.map"
+    "main.becad530.css.map": "/sparklekids-school/static/css/main.becad530.css.map",
+    "main.1ed9df11.js.map": "/sparklekids-school/static/js/main.1ed9df11.js.map"
   },
   "entrypoints": [
-    "static/css/main.05a885e2.css",
-    "static/js/main.fa312c57.js"
+    "static/css/main.becad530.css",
+    "static/js/main.1ed9df11.js"
   ]
 }
