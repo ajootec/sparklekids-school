@@ -1,7 +1,7 @@
-import React from 'react';
-import { Card } from '../components/ui/card';
-import { Target, Eye, Award, Heart, Users, BookOpen } from 'lucide-react';
-import { schoolInfo } from '../mock';
+import React from "react";
+import { Card } from "../components/ui/card";
+import { Target, Eye, Award, Heart, Users, BookOpen } from "lucide-react";
+import { schoolInfo } from "../mock";
 
 const About = () => {
   return (
@@ -34,7 +34,9 @@ const About = () => {
               <div className="w-16 h-16 bg-gradient-to-br from-orange-500 to-pink-600 rounded-2xl flex items-center justify-center mb-6 shadow-lg">
                 <Target className="w-8 h-8 text-white" />
               </div>
-              <h2 className="text-3xl font-bold text-gray-900 mb-4">Our Mission</h2>
+              <h2 className="text-3xl font-bold text-gray-900 mb-4">
+                Our Mission
+              </h2>
               <p className="text-lg text-gray-700 leading-relaxed">
                 {schoolInfo.mission}
               </p>
@@ -44,7 +46,9 @@ const About = () => {
               <div className="w-16 h-16 bg-gradient-to-br from-pink-500 to-purple-600 rounded-2xl flex items-center justify-center mb-6 shadow-lg">
                 <Eye className="w-8 h-8 text-white" />
               </div>
-              <h2 className="text-3xl font-bold text-gray-900 mb-4">Our Vision</h2>
+              <h2 className="text-3xl font-bold text-gray-900 mb-4">
+                Our Vision
+              </h2>
               <p className="text-lg text-gray-700 leading-relaxed">
                 {schoolInfo.vision}
               </p>
@@ -69,29 +73,41 @@ const About = () => {
             {[
               {
                 icon: Heart,
-                title: 'Care & Compassion',
-                description: 'We create a nurturing environment where every child feels valued, safe, and supported to reach their full potential.',
-                color: 'from-red-500 to-pink-600'
+                title: "Care & Compassion",
+                description:
+                  "We create a nurturing environment where every child feels valued, safe, and supported to reach their full potential.",
+                color: "from-red-500 to-pink-600",
               },
               {
                 icon: BookOpen,
-                title: 'Quality Education',
-                description: 'We are committed to delivering CBSE-aligned education that emphasizes conceptual understanding and practical application.',
-                color: 'from-orange-500 to-yellow-600'
+                title: "Quality Education",
+                description:
+                  "We are committed to delivering CBSE-aligned education that emphasizes conceptual understanding and practical application.",
+                color: "from-orange-500 to-yellow-600",
               },
               {
                 icon: Users,
-                title: 'Holistic Development',
-                description: 'We focus on developing well-rounded individuals through academics, sports, arts, and character building activities.',
-                color: 'from-purple-500 to-pink-600'
-              }
+                title: "Holistic Development",
+                description:
+                  "We focus on developing well-rounded individuals through academics, sports, arts, and character building activities.",
+                color: "from-purple-500 to-pink-600",
+              },
             ].map((value, index) => (
-              <Card key={index} className="p-8 hover:shadow-2xl transition-all duration-300 border-2 bg-white hover:-translate-y-2">
-                <div className={`w-16 h-16 bg-gradient-to-br ${value.color} rounded-2xl flex items-center justify-center mb-6 shadow-lg`}>
+              <Card
+                key={index}
+                className="p-8 hover:shadow-2xl transition-all duration-300 border-2 bg-white hover:-translate-y-2"
+              >
+                <div
+                  className={`w-16 h-16 bg-gradient-to-br ${value.color} rounded-2xl flex items-center justify-center mb-6 shadow-lg`}
+                >
                   <value.icon className="w-8 h-8 text-white" />
                 </div>
-                <h3 className="text-2xl font-bold text-gray-900 mb-3">{value.title}</h3>
-                <p className="text-gray-600 leading-relaxed">{value.description}</p>
+                <h3 className="text-2xl font-bold text-gray-900 mb-3">
+                  {value.title}
+                </h3>
+                <p className="text-gray-600 leading-relaxed">
+                  {value.description}
+                </p>
               </Card>
             ))}
           </div>
@@ -111,7 +127,7 @@ const About = () => {
           </div>
 
           <div className="max-w-2xl mx-auto">
-            <Card className="p-10 border-2 hover:shadow-2xl transition-all bg-gradient-to-br from-white to-orange-50">
+            {/* <Card className="p-10 border-2 hover:shadow-2xl transition-all bg-gradient-to-br from-white to-orange-50">
               <div className="text-center">
                 <div className="w-32 h-32 bg-gradient-to-br from-orange-500 to-pink-600 rounded-full mx-auto mb-6 flex items-center justify-center shadow-xl">
                   <span className="text-5xl font-bold text-white">{schoolInfo.managingDirector.charAt(4)}</span>
@@ -120,6 +136,33 @@ const About = () => {
                 <p className="text-lg text-orange-600 font-semibold mb-6">Managing Director</p>
                 <p className="text-gray-700 leading-relaxed">
                   With a vision to provide quality education accessible to all, our Managing Director has been instrumental in establishing Sparkle Kids International School as a beacon of excellence in the region. Under their leadership, the school has grown to become a trusted institution for hundreds of families.
+                </p>
+              </div>
+            </Card> */}
+            <Card className="p-10 border-2 hover:shadow-2xl transition-all bg-gradient-to-br from-white to-orange-50">
+              <div className="text-center">
+                <div className="w-32 h-32 rounded-full mx-auto mb-6 shadow-xl overflow-hidden border-4 border-orange-400">
+                  <img
+                    src={require('../assets/images/chairman1.jpg')}
+                    alt="Managing Director"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+
+                <h3 className="text-3xl font-bold text-gray-900 mb-2">
+                  {schoolInfo.managingDirector}
+                </h3>
+
+                <p className="text-lg text-orange-600 font-semibold mb-6">
+                  Managing Director
+                </p>
+
+                <p className="text-gray-700 leading-relaxed">
+                  With a vision to provide quality education accessible to all,
+                  our Managing Director has been instrumental in establishing
+                  Sparkle Kids International School as a beacon of excellence in
+                  the region. Under their leadership, the school has grown to
+                  become a trusted institution for hundreds of families.
                 </p>
               </div>
             </Card>
@@ -134,7 +177,9 @@ const About = () => {
             <div>
               <div className="inline-flex items-center space-x-2 bg-white/20 backdrop-blur-md border border-white/30 rounded-full px-4 py-2 mb-6">
                 <Award className="w-5 h-5 text-yellow-300" />
-                <span className="text-white font-semibold">Officially Recognized</span>
+                <span className="text-white font-semibold">
+                  Officially Recognized
+                </span>
               </div>
               <h2 className="text-4xl md:text-5xl font-bold mb-6">
                 CBSE Affiliated School
@@ -143,7 +188,11 @@ const About = () => {
                 {schoolInfo.affiliation}
               </p>
               <p className="text-lg text-white/80 leading-relaxed">
-                As a CBSE-affiliated institution, we follow the nationally recognized curriculum that ensures our students receive education that meets the highest standards. Our affiliation guarantees quality education and opens doors to opportunities across India and beyond.
+                As a CBSE-affiliated institution, we follow the nationally
+                recognized curriculum that ensures our students receive
+                education that meets the highest standards. Our affiliation
+                guarantees quality education and opens doors to opportunities
+                across India and beyond.
               </p>
             </div>
             <div className="relative">
