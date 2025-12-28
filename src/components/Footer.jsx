@@ -29,8 +29,13 @@ const Footer = () => {
           {/* About */}
           <div>
             <div className="flex items-center space-x-3 mb-4">
-              <div className="w-12 h-12 bg-gradient-to-br from-orange-500 to-pink-600 rounded-2xl flex items-center justify-center">
-                <Sparkles className="w-6 h-6" />
+            <div className="relative w-14 h-14 bg-white rounded-2xl flex items-center justify-center transform group-hover:scale-105 transition-transform shadow-lg overflow-hidden">
+            {/* <Sparkles className="w-6 h-6" /> */}
+                <img
+                  src={require('../assets/images/logo.png')}
+                  alt="Sparkle Kids Logo"
+                  className="w-10 h-10 object-contain"
+                />
               </div>
               <div className="flex flex-col">
                 <span className="text-lg font-bold">Sparkle Kids</span>
@@ -175,7 +180,7 @@ const Footer = () => {
                 <p className="text-orange-400 font-semibold text-sm mb-1">
                   CBSE Affiliated
                 </p>
-                <p className="text-gray-400 text-xs">Affiliation No. 1131183</p>
+                <p className="text-gray-400 text-xs">Affiliation No. 1131371</p>
               </div>
             </div>
           </div>

@@ -66,7 +66,7 @@ const Home = () => {
             </p>
             
             <p className="text-lg text-white/80 mb-10 max-w-2xl mx-auto">
-              Nalasopara West, Palghar | Affiliation No. 1131183
+              Nalasopara East, Palghar | Affiliation No. 1131371
             </p>
 
             {/* CTA Buttons */}
@@ -88,10 +88,10 @@ const Home = () => {
           {/* Stats */}
           <div className="mt-20 grid grid-cols-2 md:grid-cols-4 gap-6">
             {[
-              { number: '15+', label: 'Years of Excellence' },
-              { number: '1000+', label: 'Happy Students' },
+              { number: '4+', label: 'Years of Excellence' },
+              { number: '2200+', label: 'Happy Students' },
               { number: '100%', label: 'CBSE Pass Rate' },
-              { number: '50+', label: 'Qualified Teachers' }
+              { number: '60+', label: 'Qualified Teachers' }
             ].map((stat, index) => (
               <div key={index} className="bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl p-6">
                 <p className="text-4xl font-bold text-white mb-2">{stat.number}</p>

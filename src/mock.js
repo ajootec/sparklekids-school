@@ -5,12 +5,12 @@ export const schoolInfo = {
   tagline: "Igniting Young Minds, Shaping Bright Futures",
   mission: "At Sparkle Kids International School, we believe in the idea that just throwing information at students doesn't help them. Instead, we try to make students understand the reason behind anything related to either academics or their personality trait. We have seen the result of our approach towards educating our children and seen both immediate and long-term benefits in their behaviour and performance.",
   vision: "We make sure that the environment of the school is student friendly and enjoyable. However, we do not compromise with discipline, quality of education or the level of motivational drive to perform in our students' lives.",
-  email: "sparklekidsinternationalschool@gmail.com",
-  phone: "+91 9765262728",
-  address: "Near Yashwant Gaurav, Nalasopara West, Palghar, Maharashtra",
-  affiliation: "CBSE Affiliated (Affiliation No. 1131183)",
+  email: "sparklekidsinternational@gmail.com",
+  phone: "+91 7347294729",
+  address: "Opposite Gujarat Gas pump, Dhaniv Baug, Nalasopara East, Palghar, Maharashtra",
+  affiliation: "CBSE Affiliated (Affiliation No. 1131371)",
   managingDirector: "Mr. Bansraj Singh",
-  officeHours: "Monday - Saturday: 9:00 AM - 2:00 PM"
+  officeHours: "Monday - Saturday: 9:00 AM - 6:00 PM"
 };
 
 export const quotes = [
@@ -203,12 +203,8 @@ export const newsNotices = [
 ];
 
 export const requiredDocuments = [
-  "A copy of Municipal / Panchayat Birth Certificate",
-  "Proof of change of name (if any) – Complete copy of the Gazette",
-  "Recent studio-clicked passport size photograph of the child in .jpg format with white background",
-  "Copy of Aadhaar card of the child and valid photo ID proof of parents",
-  "Residential Proof (Electricity Bill / House Registration / Telephone Bill – any one)",
-  "B2 size studio-clicked family photograph consisting of father, mother and the child in the centre, in .jpg format with white background",
-  "Details of sibling studying in this school (if any)",
-  "Baptism Certificate (for Christians only)"
+  "Birth certificate of child",
+  "Adhar card of both student and parent",
+  "Address Proof",
+  "Previous school record",
 ];
